@@ -1,0 +1,34 @@
+{
+  "name": "avalanche-smart-project1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.4.1",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.7.1",
+    "avalanche": "3.8.5",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.4.5",
+    "hardhat": "2.6.1",
+    "ts-node": "^10.4.0",
+    "web3": "^1.5.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy1": "npx hardhat run scripts/deploy1.ts",
+    "deploy2": "npx hardhat run scripts/deploy2.ts",
+
+    "accounts": "npx hardhat accounts",
+    "balances": "npx hardhat balances"
+  }
+}
